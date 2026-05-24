@@ -1,46 +1,71 @@
-# 📊 Real-World SQL & Business Intelligence Portfolio
+# SQL & Business Intelligence Portfolio
 
-Welcome to my SQL Projects Portfolio! This repository is a curated collection of end-to-end data analytics projects designed to solve complex business problems, optimize operations, and drive data-backed decisions. 
+End-to-end data analytics projects focused on real business problems —
+shipping performance, customer behavior, and operational efficiency.
+Built with advanced SQL, and visualized in Power BI.
 
-Instead of just writing basic queries, the projects here focus on **Advanced SQL techniques**, **Data Exploration (EDA)**, **handling real-world data constraints**, and translating raw numbers into executive business insights.
-
----
-
-## 🛠️ Global Tech Stack & SQL Expertise
-Across these projects, I demonstrate proficiency in the following technical areas:
-* **Database Engines:** MySQL, SQLite, Advanced Excel.
-* **BI & Visualization:** Power BI (Advanced DAX, Power Query).
-* **Advanced SQL Concepts:** 
-  * Multi-table `JOINs` & Database Schema Design.
-  * Window Functions (`DENSE_RANK`, `ROW_NUMBER`, `PARTITION BY`).
-  * Common Table Expressions (CTEs) & Subqueries.
-  * Date/Time Manipulation & Structural Data Cleaning.
+**Mohamed Salah** · [GitHub](https://github.com/MSalah-Data) · [LinkedIn](https://www.linkedin.com/in/mohamed-salah-abd-elbasset) · [Email](mailto:m.salah.abdelbasset@gmail.com)
 
 ---
 
-## 📂 Portfolio Projects Directory
+## Projects
 
-Here is a breakdown of the business cases included in this repository. Click on any project folder to view the full documentation, technical challenges, and analytical scripts.
+### 🛒 Olist E-Commerce: Shipping Performance & Customer Satisfaction
+Analyzed 100,000+ orders from Brazil's largest e-commerce platform to quantify
+how delivery delays erode customer satisfaction and retention.
 
-### 1. 🛒 [Olist E-Commerce: Shipping Performance & Customer Satisfaction](./Olist-Ecommerce-Delivery-Analysis)
-* **Core Focus:** Operational Analytics, Customer Sentiment, and Data Infrastructure.
-* **The Business Problem:** Analyzing how supply chain inefficiencies and delivery delays directly impact customer retention and review scores across 100k+ orders.
-* **Key Challenges Solved:** Managed database optimization by pivoting to SQLite when local hardware lagged on heavy CSVs, isolated extreme 189-day shipping outliers, and uncovered a psychological "Danger Zone" threshold where customer patience collapses.
-* **Status:** 🏛️ **Completed** | Includes: `SQL Scripts`, `Power BI Architecture`.
+**Key questions answered:**
+- At what delay threshold does customer satisfaction collapse?
+- Which shipping routes and sellers drive the most negative reviews?
+- How do regional logistics differences affect overall NPS?
+
+**Key findings:**
+- Identified a **"Danger Zone" delay threshold** — the exact point where review
+  scores drop sharply, giving operations teams a measurable target to defend
+- Isolated **189-day shipping outliers** distorting aggregate performance metrics
+- Linked specific seller clusters to disproportionate late delivery rates
+
+**Technical highlights:**
+- Migrated from MySQL to SQLite mid-project to handle large CSVs on local hardware —
+  then rebuilt the schema for production-level query performance
+- Used Window Functions (`DENSE_RANK`, `PARTITION BY`) to rank seller performance
+  across regions
+- CTEs to isolate delivery cohorts and track review score degradation over time
+
+**Stack:** SQL (SQLite) · Power BI · DAX · Power Query
+
+
 
 ---
 
-## 🧠 My Approach to Data Analytics
-
-I believe a great Data Analyst doesn't just write clean code—they bridge the gap between technical data and business strategy. In every project here, you will find a consistent workflow:
-1. **Infrastructure Adaptability:** Choosing the right tool (MySQL vs. SQLite) depending on data size and constraints.
-2. **Data Skepticism:** Investigating anomalies and outliers before pushing data to production.
-3. **Actionable Recommendations:** Ending every analysis with clear, strategic advice that stakeholders can implement to increase revenue or cut costs.
+*More projects in progress — inventory analysis and sales performance pipeline coming soon.*
 
 ---
 
-## ✉️ Connect with Me
-If you are looking for a Data Analyst who can handle database querying, data modeling, and frontend BI dashboards, let's connect!
+## SQL Concepts Demonstrated
 
-* **LinkedIn:** [www.linkedin.com/in/mohamed-salah-abd-elbasset]
-* **Email:** [m.salah.abdelbasset@gmail.com]
+| Concept | Used In |
+|---|---|
+| Multi-table JOINs & schema design | All projects |
+| Window functions (`DENSE_RANK`, `ROW_NUMBER`, `PARTITION BY`) | Olist — seller ranking |
+| CTEs & subqueries | Olist — cohort analysis |
+| Date/time manipulation | Olist — delay calculation |
+| Outlier detection & data cleaning | Olist — 189-day shipping anomalies |
+| SQLite optimization for large datasets | Olist — infrastructure migration |
+
+---
+
+## Stack
+
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+---
+
+## Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-salah-abd-elbasset)
+- 📧 [m.salah.abdelbasset@gmail.com](mailto:m.salah.abdelbasset@gmail.com)
