@@ -1,8 +1,8 @@
 # SQL & Business Intelligence Portfolio
 
 End-to-end data analytics projects focused on real business problems —
-shipping performance, customer behavior, and operational efficiency.
-Built with advanced SQL, and visualized in Power BI.
+customer behavior, operational efficiency, and revenue performance.
+Built with SQL and visualized in Power BI.
 
 **Mohamed Salah** · [GitHub](https://github.com/MSalah-Data) · [LinkedIn](https://www.linkedin.com/in/mohamed-salah-abd-elbasset) · [Email](mailto:m.salah.abdelbasset@gmail.com)
 
@@ -10,35 +10,16 @@ Built with advanced SQL, and visualized in Power BI.
 
 ## Projects
 
-### 🛒 Olist E-Commerce: Shipping Performance & Customer Satisfaction
-Analyzed 100,000+ orders from Brazil's largest e-commerce platform to quantify
-how delivery delays erode customer satisfaction and retention.
+Each project lives in its own repository with full documentation, SQL queries, and findings.
 
-**Key questions answered:**
-- At what delay threshold does customer satisfaction collapse?
-- Which shipping routes and sellers drive the most negative reviews?
-- How do regional logistics differences affect overall NPS?
-
-**Key findings:**
-- Identified a **"Danger Zone" delay threshold** — the exact point where review
-  scores drop sharply, giving operations teams a measurable target to defend
-- Isolated **189-day shipping outliers** distorting aggregate performance metrics
-- Linked specific seller clusters to disproportionate late delivery rates
-
-**Technical highlights:**
-- Migrated from MySQL to SQLite mid-project to handle large CSVs on local hardware —
-  then rebuilt the schema for production-level query performance
-- Used Window Functions (`DENSE_RANK`, `PARTITION BY`) to rank seller performance
-  across regions
-- CTEs to isolate delivery cohorts and track review score degradation over time
-
-**Stack:** SQL (SQLite) · Power BI · DAX · Power Query
+| Project | Domain | Stack | Status |
+|---|---|---|---|
+| [Olist E-Commerce: Shipping & Satisfaction](https://github.com/MSalah-Data/olist-ecommerce-analysis) | E-Commerce · Logistics | SQLite · Power BI · DAX | ✅ Complete |
+| [Restaurant Sales Analysis](https://github.com/MSalah-Data/restaurant-sales-sql) | F&B · Revenue | SQL Server · SSMS | ✅ Complete |
+| Inventory Analysis | Retail · Operations | SQL · Power BI | 🔄 In Progress |
+| Sales Performance Pipeline | Sales · BI | SQL · Power BI | 🔄 In Progress |
 
 
-
----
-
-*More projects in progress — inventory analysis and sales performance pipeline coming soon.*
 
 ---
 
@@ -47,11 +28,12 @@ how delivery delays erode customer satisfaction and retention.
 | Concept | Used In |
 |---|---|
 | Multi-table JOINs & schema design | All projects |
-| Window functions (`DENSE_RANK`, `ROW_NUMBER`, `PARTITION BY`) | Olist — seller ranking |
-| CTEs & subqueries | Olist — cohort analysis |
-| Date/time manipulation | Olist — delay calculation |
-| Outlier detection & data cleaning | Olist — 189-day shipping anomalies |
-| SQLite optimization for large datasets | Olist — infrastructure migration |
+| Window functions (`DENSE_RANK`, `ROW_NUMBER`, `PARTITION BY`) | Olist |
+| CTEs & subqueries | Olist · Restaurant |
+| Date/time manipulation | Olist |
+| Aggregations & revenue analysis | Restaurant · All projects |
+| Outlier detection & data cleaning | Olist |
+| Database migration & optimization | Olist |
 
 ---
 
