@@ -14,7 +14,7 @@ Each project lives in its own repository with full documentation, SQL queries, a
 
 | Project | Domain | Stack | Status |
 |---|---|---|---|
-| [Olist E-Commerce: Shipping & Satisfaction](https://github.com/MSalah-Data/olist-ecommerce-analysis) | E-Commerce · Logistics | SQLite · Power BI · DAX | ✅ Complete |
+| [Olist E-Commerce: Shipping & Satisfaction](https://github.com/MSalah-Data/Olist-Ecommerce-Delivery-Analysis) | E-Commerce · Logistics | SQLite · Power BI · DAX | ✅ Complete |
 | [Restaurant Sales Analysis](https://github.com/MSalah-Data/restaurant-sales-sql) | F&B · Revenue | SQL Server · SSMS | ✅ Complete |
 | Inventory Analysis | Retail · Operations | SQL · Power BI | 🔄 In Progress |
 | Sales Performance Pipeline | Sales · BI | SQL · Power BI | 🔄 In Progress |
